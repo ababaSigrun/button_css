@@ -1,0 +1,13 @@
+button{
+    font-size: 1.4em;
+    font-weight: bold;
+    padding: 10px 30px;
+}
+/* 文字サイズ変更　*/
+button.No1:hover  {
+    font-size: 2.5em;
+}
+button.No1:active  {
+    font-size: 5.0em;
+}
+
