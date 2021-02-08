@@ -18,3 +18,14 @@ button.No2:hover  {
 button.No2:active  {
      background-color: #250
 }
+
+
+/* 回転　*/
+button.No3:hover  {
+			transition: 2.5s ;
+			transform: rotateZ( 360deg ) ;
+}
+button.No3:active  {
+			transition: 1.5s ;
+			transform: rotateZ( 360deg ) ;
+}
