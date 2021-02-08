@@ -11,3 +11,10 @@ button.No1:active  {
     font-size: 5.0em;
 }
 
+/* カラー変更　*/
+button.No2:hover  {
+     background-color: #248
+}
+button.No2:active  {
+     background-color: #250
+}
