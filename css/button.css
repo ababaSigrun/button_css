@@ -22,10 +22,31 @@ button.No2:active  {
 
 /* 回転　*/
 button.No3:hover  {
-			transition: 2.5s ;
-			transform: rotateZ( 360deg ) ;
+    transition: 2.5s ;
+    transform: rotateZ( 360deg ) ;
 }
 button.No3:active  {
-			transition: 1.5s ;
-			transform: rotateZ( 360deg ) ;
+    transition: 1.5s ;
+    transform: rotateZ( 360deg ) ;
+}
+
+/* グラデーション */
+button.No4:hover  {
+  background: linear-gradient(-45deg, #f9c2eb, #a8c2ee, #c2f9d0, #ffdea5) ;
+  /* サイズを8倍にして表示をさせなくして移動させるイメージ */
+  background-size: 800% 800%;
+  animation: GradietionPtn 4s ease infinite
+}
+
+@keyframes GradietionPtn { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+/*　押してる間だけ見える。　*/
+button.No4:active  {
+    background: linear-gradient(to top right,blue, pink,yellow,black);
+    background-size: 800% 800%;
+    animation: GradietionPtn 1s ease infinite
 }
